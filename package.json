@@ -1,0 +1,26 @@
+{
+  "name": "yelp-camp",
+  "version": "1.0.0",
+  "description": "clone of Yelp Camp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vignesh-0510/yelp-camp.git"
+  },
+  "author": "Vignesh-0510",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vignesh-0510/yelp-camp/issues"
+  },
+  "homepage": "https://github.com/vignesh-0510/yelp-camp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.21",
+    "request-promise": "^4.2.4"
+  }
+}
