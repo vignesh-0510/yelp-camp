@@ -1,4 +1,4 @@
-<% include partials/header %>
+<% include ../partials/header %>
 
 
 <div class='container'>
@@ -16,14 +16,20 @@
     <% campgrounds.forEach((object)=>{%>
         <div class='col-md-3 col-sm-6'>
             <div class='thumbnail'>
-            <img src = '<%= object.image %>' alt="Image not found">
-            <div class='caption'>
-                <h4><strong><%= object['name'] %></strong></h4>
-            </div>
+                <img src = '<%= object.image %>' alt="Image not found">
+                <div class='caption'>
+                    <h4><strong><%= object['name'] %></strong></h4>
+                </div>
+                <p class=''>
+                   <a href='/campgrounds/<%= object._id %>' class='btn btn-primary'>
+                       More Info
+                   </a> 
+                </p>
+                
             </div>
         </div>
     <% }); %>
     </div>
 </div>
 
-<% include partials/footer %>
+<% include ../partials/footer %>
